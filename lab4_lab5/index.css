@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('content/valorant_bg_2.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.header {
+    background-color: #ff4655;
+    padding: 10px;
+    text-align: right;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(31, 35, 42, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ff4655;
+}
+
+h1, h2 {
+    color: #ff4655;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}

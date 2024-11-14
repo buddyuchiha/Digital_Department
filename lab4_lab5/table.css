@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('content/valorant_bg.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.header {
+    background-color: #ff4655;
+    padding: 10px;
+    text-align: right;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ff4655;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    color: #ffffff;
+    background-color: rgba(31, 35, 42, 0.9); 
+    border: 1px solid #ff4655;
+}
+
+caption {
+    font-size: 1.5em;
+    margin: 10px;
+    color: #ff4655;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ff4655;
+}
+
+thead th {
+    background-color: #1f232a;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(27, 39, 51, 0.8);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(19, 26, 34, 0.8);
+}
+
+tbody tr:hover {
+    background-color: #ff4655;
+    color: #ffffff;
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+}
+
+.rank img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.radiant { color: #ffbb00; }
+.immortal { color: #ff0000; }
+.ascedant { color: #00ff00; }
+.diamond { color: #ea00ff; }
+.platinum { color: #00e1ff; }
+.gold { color: #ffd700; }
+.silver { color: #c0c0c0; }
+.bronze { color: #cd7f32; }
+.iron { color: #a19d94; }
+
+.form-section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(31, 35, 42, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ff4655;
+    color: #ffffff;
+}
+
+.form-section h2 {
+    color: #ff4655;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1f232a;
+    color: #ffffff;
+    border: 1px solid #ff4655;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4655;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #d93b4a;
+}

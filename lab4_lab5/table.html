@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рейтинг Рангов - Valorant</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="table.html">Рейтинг Рангов</a>
+        </nav>
+    </header>
+
+    <h1>Рейтинг Рангов - Valorant</h1>
+
+    <table>
+        <caption>Текущие ранги игроков</caption>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Никнейм</th>
+                <th>Ранг</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>buddy</td>
+                <td class="rank radiant">Radiant <img src="content/radiant.png" alt="Radiant"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ynnmurmurai</td>
+                <td class="rank immortal">Immortal <img src="content/immortal.png" alt="Immortal"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>lil skifix</td>
+                <td class="rank ascedant">Ascedant <img src="content/ascedant.png" alt="Diamond"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>tendo</td>
+                <td class="rank diamond">Diamond <img src="content/diamond.png" alt="Diamond"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>tenz</td>
+                <td class="rank platinum">Platinum <img src="content/platinum.png" alt="Platinum"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>S1MPLE</td>
+                <td class="rank gold">Gold <img src="content/gold.png" alt="Gold"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>D1MPLE</td>
+                <td class="rank silver">Silver <img src="content/silver.png" alt="Silver"></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Pl@yer1337</td>
+                <td class="rank bronze">Bronze <img src="content/bronze.png" alt="Bronze"></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>VALORANT BOSS007</td>
+                <td class="rank iron">Iron <img src="content/iron.png" alt="Iron"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <section class="form-section">
+        <h2>Добавить нового игрока</h2>
+        <form>
+            <label for="nickname">Никнейм:</label>
+            <input type="text" id="nickname" name="nickname" required>
+    
+            <label for="rank">Ранг:</label>
+            <select id="rank" name="rank" required>
+                <option value="Radiant">Radiant</option>
+                <option value="Immortal">Immortal</option>
+                <option value="Ascedant">Ascedant</option>
+                <option value="Diamond">Diamond</option>
+                <option value="Platinum">Platinum</option>
+                <option value="Gold">Gold</option>
+                <option value="Silver">Silver</option>
+                <option value="Bronze">Bronze</option>
+                <option value="Iron">Iron</option>
+            </select>
+    
+            <button type="submit">Добавить</button>
+        </form>
+    </section>
+</body>
+</html>
